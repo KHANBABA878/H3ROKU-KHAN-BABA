@@ -1,4 +1,4 @@
-ji# CRADIT BY DEVA XD KING 
+# CRADIT BY DEVA XD KING 
 import requests
 import json
 import time
